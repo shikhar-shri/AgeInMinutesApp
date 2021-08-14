@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="15sp"
+    android:background="@color/BackGround_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CALCULATE YOUR AGE"
+        android:textColor="@color/TextColor"
+
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="IN MINUTES"
+        android:textColor="@color/TextColor"
+
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:background="@color/TextColor"
+        android:padding="15sp"
+        android:text="Select Date Of Birth" />
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:textSize="24sp"
+
+         />
+
+    <TextView
+        android:id="@+id/SelectedDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12sp"
+        android:textSize="15sp"
+        android:text="Selected Date"
+        android:textColor="@color/smallTextColor"
+
+        />
+
+    <TextView
+        android:id="@+id/AgeInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+        android:id="@+id/AgeInMinutesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12sp"
+        android:textSize="15sp"
+        android:text="Your age in minutes"
+        android:textColor="@color/smallTextColor"
+
+        />
+
+</LinearLayout>
